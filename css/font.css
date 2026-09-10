@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../webfonts/icomoon.eot?1ocwmo');
+  src:  url('../webfonts/icomoon.eot?1ocwmo#iefix') format('embedded-opentype'),
+    url('../webfonts/icomoon.ttf?1ocwmo') format('truetype'),
+    url('../webfonts/icomoon.woff?1ocwmo') format('woff'),
+    url('../webfonts/icomoon.svg?1ocwmo#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-message:before {
+  content: "\e900";
+}
+.icon-comment:before {
+  content: "\e901";
+}
+.icon-video-player:before {
+  content: "\e902";
+}
+.icon-product-design:before {
+  content: "\e903";
+}
+.icon-branding:before {
+  content: "\e904";
+}
+.icon-app-design:before {
+  content: "\e905";
+}
+.icon-video-camera:before {
+  content: "\e906";
+}
+.icon-radio:before {
+  content: "\e907";
+}
+.icon-advertising:before {
+  content: "\e908";
+}
+.icon-promotion:before {
+  content: "\e909";
+}
+.icon-download:before {
+  content: "\e960";
+}

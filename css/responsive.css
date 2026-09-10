@@ -1,0 +1,88 @@
+@media only screen and (max-width: 1024px){
+
+}
+
+@media only screen and (max-width: 980px){
+.bc-img01, .bc-img02 { background-size: cover; }
+#content-1 { height: 250px; }
+.success-item, .success-item .text-right.col-lg-6 { text-align: center!important; padding-top: 30px; }
+.section-deals .col-lg-6 .text-right, .section-deals { text-align: center!important; padding: 20px 0; }
+.categories-intro .col-lg-4 h1.text-right br, .section-deals .col-lg-6 .text-right h3 br, .section2:after, .testimonials-sec .testimonial-content:before, .testimonials-sec .testimonial-content:after, .section4 .widget-title h3 br { display: none; }
+.section4 .trumphet-section.p-5-5 { padding: 2rem !important;}
+.testimonial-content { margin-top: 30px; }
+#testimonial-slider.owl-theme .owl-nav { position: relative; top: auto; }
+
+#success-silder.owl-theme .owl-nav [class*=owl-], #client-slider.owl-theme .owl-nav [class*=owl-] { position: relative; }
+#success-silder.owl-theme .owl-nav .owl-next { left: 0;}
+#success-silder.owl-theme .owl-nav { margin-top: 16px;}
+.section4 .widget-title, .footer-bottom-section .col-lg-5.text-right, .section3 { text-align: center!important; }
+h1, h2, h3, h3, h4, h5, h6 { font-size: 30px; }
+#client-slider .text-center img { width: 100%; }
+#client-slider.owl-theme .owl-nav .owl-prev { left: 2px;}
+#client-slider.owl-theme .owl-nav .owl-next { right: 2px;}
+.bottom-list li a { padding: 0 3px;}
+.footer-title { margin-top: 20px; }
+.enqurycontent, .enqurydivmain { top: 40%; }
+.header .wsmenu>.wsmenu-list>li>a { margin-top: 0; padding: 10px 15px; }
+.wsmenu>.wsmenu-list>li.ml-3 { margin-left: 0px !important; }
+.header .wsmenu>.wsmenu-list>li.rightmenu a { display: block; text-align: center; font-size: 14px; padding-top: 8px; padding-bottom: 8px; }
+.categories-intro .col-lg-4 p.text-right { text-align: center !important; font-size: 16px; margin-top: 0px !important; }
+.categories-intro .col-lg-4 h1.text-right { text-align: center !important; padding-top: 30px; }
+.enqurycontent .fa-list-nav .fa-list-ul {
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.header .wsmenu>.wsmenu-list>li.internshipNav> a { border: 0px; color: #FFF;     border-bottom: 1px solid;
+    border-bottom-color: rgba(255, 255, 255, 0.9);}
+.wsmenu>.wsmenu-list>li.rightmenu .wsmenu-cart { margin-top: 0;} 
+.wsmenu>.wsmenu-list>li.rightmenu .wsmenu-cart .sign-in { width: 50%; }
+.wsmenu>.wsmenu-list>li.rightmenu .wsmenu-cart .nav-link.dropdown-toggle { color: #FFF;  padding: 15px 8px 15px; }   
+
+}
+
+@media only screen and (max-width: 736px){
+.container { max-width: 100%; }
+}
+
+@media only screen and (max-width: 667px){
+.enquiry-collum .enquiry-fild-row, .enqurydivmain .enquiry-fild-row { height: auto; }
+.enqurycontent { height: 220px; }
+.enqurycontent { width: 35px;}
+.enqurydivmain { top: 10%; width: 100%; }
+}
+
+@media only screen and (max-width: 568px){
+.categories-intro { position: relative;    margin-top: -232px; }
+.footer .col-md-12 .text-white, .footer-bottom-section .col-lg-6.text-right, .banner-content  { text-align: center !important; }
+.soical-profile ul { width: 220px; margin: 0 auto 0px; }
+.soical-profile ul li { margin-bottom: 8px; }
+.bc-img01, .bc-img02 {     height: 280px; }
+.banner-content h1 br { display: none; }    
+}
+
+@media only screen and (max-width: 480px){
+
+}
+
+@media only screen and (max-width: 414px){
+.blog-text.referBtn > a { display: block; text-align: center; }
+.blog-text.referBtn > a.orange.ml-2 { margin-left: 0px !important; margin-top: 20px; }
+.blogs-item .blogDate {
+    position: relative;
+    
+}
+}
+
+@media only screen and (max-width: 384px){
+
+}
+
+
+@media only screen and (max-width: 360px){
+
+}
+
+@media only screen and (max-width: 320px){
+
+}
