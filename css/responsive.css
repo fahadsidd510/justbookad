@@ -53,8 +53,8 @@ h1, h2, h3, h3, h4, h5, h6 { font-size: 30px; }
 }
 
 @media only screen and (max-width: 568px){
-.categories-intro { position: relative;    margin-top: -232px; }
-.footer .col-md-12 .text-white, .footer-bottom-section .col-lg-6.text-right, .banner-content  { text-align: center !important; }
+/* .categories-intro { position: relative;    margin-top: -232px; } */
+.footer .col-md-12 .text-white, .footer-bottom-section .col-lg-6.text-right  { text-align: center !important; }
 .soical-profile ul { width: 220px; margin: 0 auto 0px; }
 .soical-profile ul li { margin-bottom: 8px; }
 .bc-img01, .bc-img02 {     height: 280px; }
