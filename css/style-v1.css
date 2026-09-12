@@ -2026,3 +2026,353 @@
     }
 
 }
+
+/* =========================================================
+   ABOUT / BRAND SECTION
+========================================================= */
+
+.fas-about-section {
+    position: relative;
+
+    width: 100%;
+
+    min-height: 420px;
+
+    padding: 20px 40px;
+
+    overflow: hidden;
+
+    background-color: #d92d19;
+
+    background-image: url("../images/fas-about-bg.png");
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    background-position: center;
+}
+
+
+/* =========================================================
+   CONTENT WRAPPER
+========================================================= */
+
+.fas-about-row {
+    position: relative;
+
+    min-height: 420px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+
+/* =========================================================
+   LEFT CONTENT
+========================================================= */
+
+.fas-about-content {
+    position: relative;
+
+    z-index: 2;
+
+    width: 70%;
+
+    padding: 0 20px 0 0;
+}
+
+
+.fas-about-content p {
+    margin: 0;
+
+    color: #ffffff;
+
+    font-size: 19px;
+
+    line-height: 1.55;
+
+    font-weight: 400;
+
+    letter-spacing: -.15px;
+}
+
+
+.fas-about-content p strong {
+    font-weight: 800;
+
+    color: #ffffff;
+}
+
+
+/* =========================================================
+   RIGHT IMAGE
+========================================================= */
+
+.fas-about-image {
+    position: absolute;
+
+    z-index: 2;
+
+    right: -55px;
+
+    /* bottom: -35px;
+
+    width: 47%; */
+
+    max-width: 680px;
+
+    display: flex;
+
+    align-items: flex-end;
+
+    justify-content: flex-end;
+
+    pointer-events: none;
+}
+
+
+.fas-about-image img {
+    width: 100%;
+
+    height: auto;
+
+    display: block;
+
+    object-fit: contain;
+}
+
+
+/* =========================================================
+   LARGE DESKTOP
+========================================================= */
+
+@media (max-width: 1399px) {
+
+    .fas-about-section {
+        /* padding: 60px 0 65px; */
+    }
+
+
+    .fas-about-content {
+        width: 70%;
+    }
+
+
+    .fas-about-content p {
+        font-size: 17px;
+
+        line-height: 1.52;
+    }
+
+
+    .fas-about-image {
+        /* right: -35px; */
+
+        width: 35%;
+    }
+
+}
+
+
+/* =========================================================
+   LAPTOP
+========================================================= */
+
+@media (max-width: 1199px) {
+
+    .fas-about-section {
+        min-height: 390px;
+
+        padding: 55px 0 60px;
+    }
+
+
+    .fas-about-row {
+        min-height: 390px;
+    }
+
+
+    .fas-about-content {
+        width: 60%;
+
+        padding-right: 15px;
+    }
+
+
+    .fas-about-content p {
+        font-size: 15px;
+
+        line-height: 1.55;
+    }
+
+
+    .fas-about-image {
+        right: -25px;
+
+        bottom: -25px;
+
+        width: 46%;
+    }
+
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 991px) {
+
+    .fas-about-section {
+        min-height: auto;
+
+        padding: 55px 0 45px;
+    }
+
+
+    .fas-about-row {
+        min-height: auto;
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+
+    /* Text */
+
+    .fas-about-content {
+        width: 100%;
+
+        padding: 0;
+
+        text-align: left;
+    }
+
+
+    .fas-about-content p {
+        font-size: 15px;
+
+        line-height: 1.55;
+    }
+
+
+    /* Image */
+
+    .fas-about-image {
+        position: relative;
+
+        right: auto;
+
+        bottom: auto;
+
+        width: 75%;
+
+        max-width: 600px;
+
+        margin: 30px auto -20px;
+
+        justify-content: center;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 767px) {
+
+    .fas-about-section {
+        padding: 45px 0 35px;
+
+        background-position: center;
+    }
+
+
+    .fas-about-row {
+        padding: 0 15px;
+    }
+
+
+    /* Content */
+
+    .fas-about-content {
+        width: 100%;
+    }
+
+
+    .fas-about-content p {
+        font-size: 12px;
+
+        line-height: 1.55;
+
+        letter-spacing: 0;
+    }
+
+
+    /* Image */
+
+    .fas-about-image {
+        width: 100%;
+
+        max-width: 500px;
+
+        margin-top: 25px;
+
+        margin-bottom: -15px;
+    }
+
+
+    .fas-about-image img {
+        width: 100%;
+
+        max-width: 500px;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 480px) {
+
+    .fas-about-section {
+        padding: 38px 0 25px;
+    }
+
+
+    .fas-about-row {
+        padding: 0 15px;
+    }
+
+
+    .fas-about-content p {
+        font-size: 11px;
+
+        line-height: 1.55;
+    }
+
+
+    .fas-about-image {
+        width: 110%;
+
+        max-width: none;
+
+        margin-left: -5%;
+
+        margin-top: 20px;
+
+        margin-bottom: -10px;
+    }
+
+}
